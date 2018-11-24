@@ -4,4 +4,4 @@ for dict in range(0,number):
     for j in range(0, dict+1): 
         print({num:num*num}, end=" ") 
         num = num +1
-    print("\r")
+    print('\r')
