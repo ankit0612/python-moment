@@ -3,9 +3,9 @@ strlist = ['one','two','three']
 numbersTuple = ('ONE', 'TWO', 'THREE', 'FOUR')
 
 result = zip(a,numbersTuple)
-resultSet  = set(result)
+resultset  = set(result)
 
 result = zip(a, strlist,numbersTuple)
 
-resultSet = set(result)
-print(resultSet)
+resultset = set(result)
+print(resultset)
