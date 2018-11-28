@@ -5,8 +5,8 @@ result = zip(coordinate, value)
 resultlist = list(result)
 print (resultlist)
 
-c,v = zip(*resultlist)
+C,V = zip(*resultlist)
 
-print('c =', c)
+print('c =', C)
 
-print('v = ', v)
+print('v = ', V)
