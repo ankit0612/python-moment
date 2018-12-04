@@ -9,7 +9,7 @@ def word_feats(words):
 
     return dict([(word, True) for word in words])
 
-positive_vocab = [ 'awesome', 'outstanding', 'fantastic', 'terrific', 'good', 'nice', 'great', 'perfect','amazing', ':)' ]
+positive_vocab =[ 'awesome', 'outstanding', 'fantastic', 'terrific', 'good', 'nice', 'great', 'perfect','amazing', ':)' ]
 negative_vocab = [ 'bad', 'terrible','irritating','useless', 'hate', ':(' ]
 neutral_vocab = [ 'movie','the','sound','was','is','actors','did','know','words','not' ]
 
