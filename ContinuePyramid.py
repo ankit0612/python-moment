@@ -7,7 +7,7 @@ def contnum(Enter):
         for y in range(0, x+1):  
             print(number, end=" ") 
           
-            number = number + 1
+            number = number+1
        
         print("\r") 
   
